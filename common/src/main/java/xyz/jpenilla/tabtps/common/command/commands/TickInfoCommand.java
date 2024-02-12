@@ -76,7 +76,7 @@ public final class TickInfoCommand extends TabTPSCommand {
   @Override
   public void register() {
     this.commands.register(this.commandManager.commandBuilder("tickinfo", "mspt", "tps")
-      .permission(Constants.PERMISSION_COMMAND_TICKINFO)
+      .permission(Constants.PERMISSION_COMMAND_TICKINFO_CMD)
       .meta(MinecraftExtrasMetaKeys.DESCRIPTION, Messages.COMMAND_TICKINFO_DESCRIPTION.plain())
       .handler(this::executeTickInfo));
   }

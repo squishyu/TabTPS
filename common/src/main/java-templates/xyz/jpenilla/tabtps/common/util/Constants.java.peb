@@ -37,6 +37,7 @@ public final class Constants {
   private static final String DOT = ".";
   private static final String PERMISSION_ROOT = "tabtps";
 
+  public static final String PERMISSION_COMMAND_TICKINFO_CMD = PERMISSION_ROOT + DOT + "tickinfo";
   public static final String PERMISSION_COMMAND_TICKINFO = PERMISSION_ROOT + DOT + "tps";
   public static final String PERMISSION_COMMAND_PING = PERMISSION_ROOT + DOT + "ping";
   public static final String PERMISSION_COMMAND_PING_OTHERS = PERMISSION_ROOT + DOT + "ping" + DOT + "others";

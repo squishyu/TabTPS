@@ -14,6 +14,4 @@ jobs:
     secrets: inherit
     with:
       artifacts-path: 'build/libs/*.jar'
-      modrinth-publish: true
-      hangar-publish: true
       loom: true
